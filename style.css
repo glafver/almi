@@ -1,0 +1,53 @@
+* {
+    font-family: sofia-pro, sans-serif !important;
+}
+
+.almi-btn {
+    background-color: #870AA0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.almi-bg-gray {
+    background-color: #F2F1F1;
+}
+
+.almi-bg-rosa {
+    background-color: #FA1996;
+}
+
+.almi-rosa {
+    color: #FA1996;
+}
+
+.almi-bg-l-aqua {
+    background-color: #A5FAE6;
+}
+
+.almi-bg-l-lila {
+    background-color: #cd9bd7;
+}
+
+.almi-bg-l-rosa {
+    background-color: #FFAFE1;
+}
+
+.almi-logo {
+    height: 40px;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+nav {
+    height: 90px;
+}
+
+.icons-wrapper img {
+    height: 40px;
+}

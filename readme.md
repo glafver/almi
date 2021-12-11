@@ -1,1 +1,1 @@
-almi
+almi.netlify.app
