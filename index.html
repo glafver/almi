@@ -14,34 +14,41 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light almi-bg-gray p-0">
-        <div class="container">
+        <div class="container align-items-start">
 
-            <a class="navbar-brand p-0 m-0" href="#"><img src="images/SVG/almi_logo_black.svg" class="almi-logo" alt=""></a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link text-black" aria-current="page" href="#">Hem</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="#villkor">Uppstartslån</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="#almi">Om Almi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="#faq">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="#ansok">Ansök</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="#kontakter">Kontakter</a>
-                    </li>
-                </ul>
+            <a class="navbar-brand m-0" href="#">
+                <img src="images/SVG/almi_logo_black.svg" class="almi-logo" alt="">
+
+            </a>
+            <div class="d-flex flex-column align-items-end align-self-center">
+                <button class="navbar-toggler border-0 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav text-end px-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-black" aria-current="page" href="#">Hem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#villkor">Uppstartslån</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#almi">Om Almi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#ansok">Ansök</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#kontakter">Kontakter</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+
         </div>
     </nav>
 
@@ -73,12 +80,12 @@
 
     </div>
     <div class="almi-bg-l-lila" id="villkor">
-        <div class="container  d-flex flex-column flex-lg-row align-items-center justify-content-center  mb-5">
+        <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-center  mb-5">
             <div class="container text-center col-10 col-lg-6 align-self-end mt-4">
                 <img src="images/good.png" alt="" class="img-fluid">
             </div>
 
-            <div class="col-10 col-lg-6 mb-5">
+            <div class="col-11 col-lg-6 mb-5">
                 <p class="display-4 fw-bold my-3 align-self-center text-center d-none d-lg-block">Lånets villkor</p>
                 <div class="container d-flex flex-column shadow rounded p-4 bg-white col-lg-8">
                     <p class="display-4 fw-bold my-2 align-self-center text-center d-block d-lg-none">Lånets villkor</p>
@@ -136,12 +143,12 @@
 
     </div>
 
-    <div class="almi-bg-l-rosa pt-5" id="faq">
-        <div class="container  d-flex flex-column flex-lg-row align-items-center justify-content-center mb-5">
-            <div class="col-10 col-lg-6 mb-5">
+    <div class="almi-bg-l-rosa pt-5 pt-lg-0" id="faq">
+        <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <div class="col-11 col-lg-6 mb-lg-5">
                 <p class="display-4 fw-bold my-3 align-self-center text-center d-none d-lg-block">Vanliga frågor</p>
 
-                <div class="container d-flex flex-column shadow rounded p-4 bg-white col-10">
+                <div class="container d-flex flex-column shadow rounded p-4 bg-white">
                     <p class="display-4 fw-bold my-2 align-self-center text-center d-block d-lg-none">Vanliga frågor</p>
                     <p class="fs-5"><span class="almi-rosa fw-bold">1. </span>Måste företaget vara startat innan ansökan skickas in?</p>
                     <p><span class="fw-bold">Svar: </span>Företaget behöver inte vara registrerat vid ansökningstillfället, men det måste vara registrerat innan utbetalning av beviljat lån kan genomföras.</p>
@@ -161,16 +168,16 @@
         </div>
     </div>
 
-    <div class="py-4">
+    <div class="py-5 almi-bg-gray">
         <p class="display-4 fw-bold text-center mb-3">Vad tycker våra kunder?</p>
 
-        <div id="carouselExampleControls" class="carousel carousel-dark slide col-9 col-lg-11 mx-auto" data-bs-ride="carousel" data-bs-interval="false">
+        <div id="carouselExampleControls" class="carousel carousel-dark slide col-10 col-lg-11 mx-auto" data-bs-ride="carousel" data-bs-interval="false">
 
-            <div class="carousel-inner ">
+            <div class="carousel-inner bg-white shadow">
                 <div class="carousel-item active">
-                    <div class="container d-flex flex-column flex-lg-row-reverse shadow rounded p-4 bg-white col-8 col-lg-10 mx-auto">
-                        <div class="col-10 col-lg-6 mx-auto fs-5">
-                            <div class="col-8 mx-auto">
+                    <div class="container d-flex flex-column flex-lg-row-reverse rounded p-4 bg-white col-lg-10 mx-auto">
+                        <div class=" col-lg-6 mx-auto fs-5">
+                            <div class="mx-auto">
                                 <p class="text-end ">"När vi var ett nystartat bolag 2015 hade Almi en avgörande roll som en av finansiärerna. Nu vill vi växa internationellt och då finns Almi med som bollplank och guidar oss rätt." </p>
                                 <p class="text-end"><em>Marcus Schelin, Cind</em> </p>
                             </div>
@@ -181,10 +188,10 @@
                 </div>
 
                 <div class="carousel-item">
-                    <div class="container d-flex flex-column flex-lg-row-reverse shadow rounded p-4 bg-white col-8 col-lg-10 mx-auto">
-                        <div class="col-10 col-lg-6 mx-auto fs-5">
-                            <div class="col-8 mx-auto">
-                                <p class="text-end ">"Almi kom in tidigt i Sellamigo och det var de som trodde på mig och gjorde så att jag vågade fortsätta. Därefter har de hjälpt till både med finansiering och genom sitt nätverk." </p>
+                    <div class="container d-flex flex-column flex-lg-row-reverse rounded p-4 bg-white col-lg-10 mx-auto">
+                        <div class=" col-lg-6 mx-auto fs-5">
+                            <div class=" mx-auto">
+                                <p class="text-end ">"Almi kom in i Sellamigo och det var de som trodde på mig och gjorde så att jag vågade fortsätta. Därefter har de hjälpt till både med finansiering och genom sitt nätverk." </p>
                                 <p class="text-end"><em>Karolina Malmlöv, Sellamigo</em> </p>
                             </div>
 
@@ -194,11 +201,10 @@
                 </div>
 
                 <div class="carousel-item">
-                    <div class="container d-flex flex-column flex-lg-row-reverse shadow rounded p-4 bg-white col-8 col-lg-10 mx-auto">
-                        <div class="col-10 col-lg-6 mx-auto fs-5">
-                            <div class="col-8 mx-auto">
-                                <p class="text-end ">"Behövde göra lite förändringar med mitt befintliga lån o kom med lite förslag till min kontaktperson. Han kom snabbt med en ännu bättre idé o hjälpte mig omedelbart med det efter mitt godkännande. Han lyssnade och fångade
-                                    upp mitt problem omedelbart o kom med konkreta förslag vilket underlättar mycket i min verksamhet!" </p>
+                    <div class="container d-flex flex-column flex-lg-row-reverse rounded p-4 bg-white col-lg-10 mx-auto">
+                        <div class="col-lg-6 mx-auto fs-5">
+                            <div class="mx-auto">
+                                <p class="text-end ">"Behövde göra lite förändringar med mitt befintliga lån. Almi kom snabbt med en ännu bättre idé o hjälpte mig omedelbart med det efter mitt godkännande. " </p>
                                 <p class="text-end"><em>Daniel Hailu, Flavoroso</em> </p>
                             </div>
 
@@ -207,24 +213,29 @@
                     </div>
                 </div>
             </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <div class="d-flex justify-content-center align-items-center col-8 col-lg-10 mx-auto mt-3">
+                <button class="carousel-control-prev position-static" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
               </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <div class="carousel-indicators position-static align-items-center mb-0">
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <button class="carousel-control-next position-static" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
               </button>
+            </div>
+
         </div>
     </div>
 
     <div class="almi-bg-l-lila p-3 ">
         <div class="container p-0 d-lg-flex col-lg-10">
             <div class="container p-0 col-lg-6 align-self-center">
-                <p class="text-white text-center col-lg-6 mx-auto">Vill du ha hjälp att komma igång? Vårt team av experter står redo att diskutera era behov för att hitta rätt lösning.</p>
+                <p class="text-white text-center col-10 col-lg-6 mx-auto">Vill du ha hjälp att komma igång? Vårt team av experter står redo att diskutera era behov för att hitta rätt lösning.</p>
             </div>
-            <form action="" class="d-flex flex-column col-lg-4 mx-auto p-3">
+            <form action="" class="d-flex flex-column col-md-8 col-lg-4 mx-auto">
                 <div class="d-flex flex-row justify-content-between align-items-center mb-3">
                     <label for="fname" class="text-white">Namn:</label>
                     <input type="text" class="border-0" id="fname" value="">
@@ -249,10 +260,10 @@
     </div>
 
     <div class="my-5" id="ansok">
-        <div class="container d-flex flex-column flex-lg-row shadow rounded p-4 pb-0 almi-bg-l-aqua col-10 mx-auto my-5">
+        <div class="container d-flex flex-column flex-lg-row shadow rounded p-4 pb-lg-0 almi-bg-l-aqua col-10 mx-auto my-5">
             <img src="images/form.png" class="col-5 col-lg-6 mx-auto" alt="">
             <div class="col-lg-6 d-flex align-items-center">
-                <div class="col-8 p-4 mx-auto shadow rounded bg-white d-flex flex-column align-items-center justify-content-center">
+                <div class="col-lg-8 p-4 mx-auto shadow rounded bg-white d-flex flex-column align-items-center justify-content-center">
                     <p class="fs-1 fw-bold text-center">Ansök om lån</p>
                     <p class="fs-5 text-center">Ansök om lån genom att fylla i vår e-tjänst</p>
                     <button class="btn btn-dark almi-btn align-self-center">Påbörja ansökan</button>
