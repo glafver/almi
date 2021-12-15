@@ -21,7 +21,7 @@
 }
 
 .almi-bg-l-aqua {
-    background-color: #A5FAE6;
+    background-color: #9BE5BE;
 }
 
 .almi-bg-l-lila {
@@ -40,11 +40,6 @@
     background-color: rgba(0, 0, 0, 0.267);
 }
 
-
-/* nav {
-    height: 90px;
-} */
-
 .icons-wrapper img {
     height: 40px;
 }
@@ -53,15 +48,6 @@
     min-height: 380px;
 }
 
-
-/* .show {
-    z-index: 10;
-}
-
-.show ul {
-    text-align: end;
-} */
-
 .navbar-collapse {
     flex-basis: auto !important;
     flex-grow: 0 !important;
@@ -69,4 +55,26 @@
 
 .navbar-toggler:focus {
     box-shadow: none !important;
+}
+
+@media (min-width: 992px) {
+    .position-lg-static {
+        position: static !important;
+    }
+    .position-lg-relative {
+        position: relative !important;
+    }
+    .position-lg-absolute {
+        position: absolute !important;
+    }
+    .position-lg-fixed {
+        position: fixed !important;
+    }
+    .position-lg-sticky {
+        position: sticky !important;
+    }
+}
+
+.almi-qoute img {
+    max-width: 8rem;
 }
