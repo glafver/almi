@@ -44,10 +44,6 @@
     height: 40px;
 }
 
-.carousel-item {
-    min-height: 380px;
-}
-
 .navbar-collapse {
     flex-basis: auto !important;
     flex-grow: 0 !important;
@@ -77,4 +73,14 @@
 
 .almi-qoute img {
     max-width: 8rem;
+}
+
+.almi-heart {
+    border: 3px solid #000;
+    /* height: 3rem; */
+    margin: 1rem;
+}
+
+.almi-heart:hover {
+    background-color: #FA1996;
 }
