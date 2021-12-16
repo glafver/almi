@@ -6,6 +6,11 @@
     background-color: #870AA0 !important;
     border: 0 !important;
     border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.almi-btn:hover {
+    background-color: #720b86 !important;
 }
 
 .almi-bg-gray {
@@ -20,8 +25,16 @@
     color: #FA1996;
 }
 
-.almi-bg-l-aqua {
-    background-color: #9BE5BE;
+.almi-bg-l-green {
+    background-color: #9BE5BE !important;
+}
+
+.almi-bg-green {
+    background-color: #00BE5F!important;
+}
+
+.almi-green {
+    color: #00BE5F!important;
 }
 
 .almi-bg-l-lila {
@@ -53,34 +66,36 @@
     box-shadow: none !important;
 }
 
-@media (min-width: 992px) {
-    .position-lg-static {
-        position: static !important;
-    }
-    .position-lg-relative {
-        position: relative !important;
-    }
-    .position-lg-absolute {
-        position: absolute !important;
-    }
-    .position-lg-fixed {
-        position: fixed !important;
-    }
-    .position-lg-sticky {
-        position: sticky !important;
-    }
-}
-
 .almi-qoute img {
     max-width: 8rem;
 }
 
 .almi-heart {
     border: 3px solid #000;
-    /* height: 3rem; */
     margin: 1rem;
 }
 
 .almi-heart:hover {
-    background-color: #FA1996;
+    background-color: #FA1996 !important;
+}
+
+.almi-input {
+    width: 150px !important;
+    height: 36px !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+#villkor .almi-bg-gray:hover {
+    background-color: #ebebeb;
+}
+
+
+/* #almi-usp .bg-white :hover {
+    background-color: rgb(243, 243, 243) !important;
+} */
+
+.modal-content {
+    background: url('images/SVG/media_hash.svg');
+    background-size: cover;
 }
