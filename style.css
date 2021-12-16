@@ -90,12 +90,19 @@
     background-color: #ebebeb;
 }
 
-
-/* #almi-usp .bg-white :hover {
+#almi-usp .bg-white :hover {
     background-color: rgb(243, 243, 243) !important;
-} */
+}
 
 .modal-content {
     background: url('images/SVG/media_hash.svg');
     background-size: cover;
+}
+
+nav li :hover {
+    color: #FA1996 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(images/SVG/icon_list.svg) !important;
 }
