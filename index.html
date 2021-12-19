@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
     <!-- Navbar top -->
     <nav class="navbar navbar-expand-lg navbar-light almi-bg-gray p-0 text-black">
         <div class="container align-items-center justify-content-between">
@@ -84,11 +85,12 @@
 
     </div>
 
-    <div class="container d-flex flex-column flex-lg-row justify-content-around align-items-center shadow rounded my-5 p-0 col-10 almi-bg-l-green " id="uppstart">
+    <!-- Call to action -->
+    <div class="container d-flex flex-column flex-lg-row justify-content-around align-items-center shadow  my-5 p-0 col-10 almi-bg-l-green " id="uppstart">
         <div class="w-100 d-flex align-items-center justify-content-between">
             <img src="images/SVG/media_lines.svg" class="w-25 py-lg-3" alt="">
             <div class="text-center mx-auto">
-                <p class="display-4 fw-bold m-0">Uppstartslån</p>
+                <p class="display-4 fw-bold m-0 m-lg-3">Uppstartslån</p>
                 <p class="h5 text-center d-none d-lg-block">- det bästa valet för blivande enterprenörer!</p>
             </div>
 
@@ -97,89 +99,110 @@
         <div class="d-flex flex-column col-lg-5 p-4">
 
             <p class="h5 text-center d-lg-none">- det bästa valet för blivande enterprenörer!</p>
-            <p class="mx-auto text-lg-center">Har du precis startat ditt första företag men behöver finansiering? Vi hjälper dig med ett nytt lån till ditt företag, så du kan utvecklas snabbare!</p>
+            <p class="mx-auto text-center">Har du precis startat ditt första företag men behöver finansiering? Vi hjälper dig med ett nytt lån till ditt företag, så du kan utvecklas snabbare!</p>
             <button class="btn btn-dark almi-btn align-self-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Påbörja ansökan</button>
         </div>
 
     </div>
 
     <!-- Conditions / Villkor -->
-    <div class="almi-bg-l-lila" id="villkor">
+    <div class="almi-bg-l-lila pb-5 pb-lg-0" id="villkor" id="uppstart">
 
-        <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-center  mb-5">
+        <div class="container d-flex flex-column flex-lg-row justify-content-center">
 
             <div class="container text-center col-10 col-lg-6 align-self-end mt-4">
                 <img src="images/good.png" alt="" class="img-fluid">
             </div>
 
-            <div class="mb-5 col-11 col-lg-6">
+            <div class="my-auto col-11 col-lg-6 align-self-center">
 
-                <p class="display-4 fw-bold my-3 align-self-center text-center d-none d-lg-block">Lånets villkor</p>
+                <div class="container d-flex flex-column shadow p-3 pb-lg-4 bg-white ">
 
-                <div class="container d-flex flex-column shadow rounded p-3 bg-white ">
-
-                    <div class="m-2">
-                        <p class="display-4 fw-bold my-2 align-self-center text-center d-block d-lg-none">Lånets villkor</p>
-                        <p class="h5 mb-3 text-center">Almis Uppstartslån är smidigt och enkelt sätt för företagsre att få ett lån. <br> Du väljer bara mellan tre olika belopp och få fixerad återbetalningsperioden för respektive belopp.</p>
+                    <div class="m-2 ">
+                        <p class="display-4 fw-bold my-2 align-self-center text-center ">Lånets villkor</p>
                     </div>
 
-                    <div class="d-none d-lg-flex flex-lg-row mx-auto text-center fw-bold">
-                        <div class="almi-bg-gray m-2 p-2 d-flex flex-column ">
-                            <img src="images/heart.png" alt="" class="almi-heart rounded-circle almi-bg-l-green align-self-center d-none d-lg-block img-fluid col-4">
-                            <p><span class="almi-rosa">	&#9679;</span> 10 000 SEK</p>
-                            <p><span class="almi-rosa">	&#9679;</span> 3 må&shy;nader</p>
+                    <div class="d-flex flex-wrap justify-content-center mx-auto">
+
+                        <div class="d-flex flex-column flex-md-row flex-wrap justify-content-between col-12 col-md-12 col-xl-9" id="choice">
+                            <p class="fs-6 text-center col-10 col-md-12 mx-auto "><b class="fs-5">Uppstartslån</b> - är ett smidigt och enkelt sätt för företagsre att få ett lån. Välj mellan tre fasta belopp och räkna ut lånets villkor:</p>
+
+                            <div class="col order-1 fs-4 almi-bold almi-bg-gray p-2 mb-2 mb-md-0 text-center">
+                                <p class="m-0 d-inline">10 000</p>
+                                <img class="almi-chevron" src="images/SVG/icon_chevron.svg" alt="">
+                            </div>
+
+                            <div class="col order-2 fs-4 almi-bold almi-bg-gray p-2 mx-md-1 mb-2 mb-md-0 text-center">
+                                <p class="m-0 d-inline">25 000</p>
+                                <img class="almi-chevron" src="images/SVG/icon_chevron.svg" alt="">
+                            </div>
+
+
+                            <div class="col order-3 fs-4 almi-bold almi-bg-gray p-2 mb-2 mb-md-0 text-center">
+                                <p class="m-0 d-inline">50 000</p>
+                                <img class="almi-chevron" src="images/SVG/icon_chevron.svg" alt="">
+                            </div>
+
+                            <div class="d-none d-md-none col order-3 mb-2 p-2 text-start almi-bg-gray pt-3 col-12 col-md-12 col-xl-9 almi-chevron-toggle">
+                                <p><span class="almi-rosa">	&#9679;</span> Du betalar <b class="pay"> &#818;
+                                &#818;
+                                &#818;
+                                &#818;
+                                &#818;
+                                &#818;
+                                &#818;
+                                &#818;
+                            </b> SEK/månad.</p>
+                                <p><span class="almi-rosa">	&#9679;</span> Återbetalningsperiod är <b class="month">&#818;
+                                &#818;
+                                &#818;
+                            </b> månader.</p>
+
+                            </div>
                         </div>
 
-                        <div class="almi-bg-gray m-2 p-2 d-flex flex-column ">
-                            <img src="images/heart.png" alt="" class="almi-heart rounded-circle almi-bg-l-green align-self-center d-none d-lg-block img-fluid col-4">
-                            <p><span class="almi-rosa">	&#9679;</span>25 000 SEK</p>
-                            <p><span class="almi-rosa">	&#9679;</span>6 må&shy;nader</p>
-                        </div>
+                        <div class="d-none d-md-block my-2 p-2 text-start almi-bg-gray pt-3 col-12 col-md-12 col-xl-9 ">
+                            <p><span class="almi-rosa">	&#9679;</span> Du betalar <b class="pay"> &#818;
+                            &#818;
+                            &#818;
+                            &#818;
+                            &#818;
+                            &#818;
+                            &#818;
+                            &#818;
+                        </b> SEK/månad.</p>
+                            <p><span class="almi-rosa">	&#9679;</span> Återbetalningsperiod är <b class="month">&#818;
+                            &#818;
+                            &#818;
+                        </b> månader.</p>
 
-                        <div class="almi-bg-gray m-2 p-2 d-flex flex-column ">
-                            <img src="images/heart.png" alt="" class="almi-heart rounded-circle almi-bg-l-green align-self-center d-none d-lg-block img-fluid col-4">
-                            <p><span class="almi-rosa">	&#9679;</span><b> 50 000 SEK</b> </p>
-                            <p><span class="almi-rosa">	&#9679;</span><b> 12 må&shy;nader</b> </p>
                         </div>
-
                     </div>
-                    <div class="d-block d-lg-none text-center fw-bold">
-                        <p><span class="almi-rosa">	&#9679;</span> 10 000 SEK - 3 månader</p>
-                        <p><span class="almi-rosa">	&#9679;</span> 25 000 SEK - 6 månader</p>
-                        <p><span class="almi-rosa">	&#9679;</span> 50 000 SEK - 12 månader</p>
-                    </div>
-                </div>
-                <div class="m-2 text-center">
-                    <p class="fw-bold"><span class="almi-green">&#10004;</span> Amortering på en fast avgift av 500 SEK i månaden. </p>
-                    <p class="fw-bold"><span class="almi-green">&#10004;</span> Fast ränta 5%.</p>
                 </div>
 
             </div>
-
         </div>
-    </div>
     </div>
 
     <!-- USP / Varför Almi -->
-
-    <div class="mb-5" id="almi-usp">
+    <div class="my-5" id="almi-usp">
 
         <p class="display-4 fw-bold text-center mb-3"> Varför välja Almi?</p>
-        <div class="container d-flex flex-column flex-lg-row" id="choice">
-            <div class="container d-flex flex-column shadow rounded p-4 mb-3 bg-white col-9 col-lg-3 mx-auto">
+        <div class="container d-flex flex-column flex-lg-row" id="why">
+            <div class="container d-flex flex-column shadow  p-4 mb-3 bg-white col-9 col-lg-3 mx-auto">
                 <img src="images/SVG/media_romb.svg" class="my-3 mx-auto w-25" alt="">
                 <p class="h3 fw-bold text-center">Stor erfarenhet</p>
                 <p class="text-center col-10 mx-auto">Almi har lång erfarenhet av att arbeta med nystartade företag. Våra experter vet hur de ska ge de råd som behövs för dem som precis ska starta sitt företag.</p>
             </div>
-            <div class="container d-flex flex-column shadow rounded p-4 mb-3 bg-white col-9 col-lg-3 mx-auto">
+            <div class="container d-flex flex-column shadow  p-4 mb-3 bg-white col-9 col-lg-3 mx-auto">
                 <img src="images/SVG/media_cross.svg" class="my-3 mx-auto w-25" alt="">
                 <p class="h3 fw-bold text-center">Trygghet</p>
                 <p class="text-center col-10 mx-auto">Almi Företagspartner AB ägs av staten och är moderbolag med 16 regionala dotterbolag och underkoncernen Almi Invest. Almis huvudmål är att skapa tillväxt och förnyelse i svenskt näringsliv.</p>
             </div>
-            <div class="container d-flex flex-column shadow rounded p-4 mb-3 bg-white col-9 col-lg-3 mx-auto">
+            <div class="container d-flex flex-column shadow  p-4 mb-3 bg-white col-9 col-lg-3 mx-auto">
                 <img src="images/SVG/media_diagram.svg" class="my-3 mx-auto w-25" alt="">
                 <p class="h3 fw-bold text-center">Nöjdast kunder</p>
-                <p class="text-center col-10 mx-auto">På bara ett år beviljade Almi lån till 4 200 företag till ett totalt belopp av 2,6 miljarder kronor. Vi hittar ett individuellt förhållningssätt i varje fall, så varje kund kommer att känna sig speciell.
+                <p class="text-center col-10 mx-auto">På bara ett år beviljade Almi lån till 4 200 företag till totalt belopp av 2,6 miljarder kronor. Vi hittar ett individuellt sätt i varje fall, varje kund kommer att känna sig speciell.
                 </p>
             </div>
         </div>
@@ -187,15 +210,15 @@
     </div>
 
     <!-- About Almi -->
-
     <div class="almi-bg-gray py-5 " id="almi">
 
         <div class="container d-lg-flex align-items-center">
             <div class="col-11 col-lg-6 mx-auto"><img src="images/collegues.jpg" alt="" class="img-fluid mb-3 mb-lg-0">
             </div>
+
             <div class="col-lg-6">
 
-                <div class="d-flex flex-column shadow rounded p-4 bg-white col-11 mx-auto">
+                <div class="d-flex flex-column shadow  p-4 bg-white col-11 mx-auto">
                     <p class="display-4 fw-bold text-center">Kort om Almi</p>
                     <p>Almis uppdrag är att skapa tillväxt och förnyelse i näringslivet genom finansiering i kombination med rådgivning. Målet är att fler innovativa idéer kommersialiseras framgångsrikt, att fler livskraftiga företag startas och utvecklas
                         samt att fler företag ökar sin konkurrenskraft och tillväxt. Almi kan också samverka med andra parter för att gemensamt hantera risk.</p>
@@ -207,22 +230,66 @@
     </div>
 
     <!-- FAQ -->
-
     <div class="almi-bg-l-rosa pt-5 pt-lg-0" id="faq">
         <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-center">
             <div class="col-11 col-lg-6 mb-lg-5">
-                <p class="display-4 fw-bold my-3 align-self-center text-center d-none d-lg-block">Vanliga frågor</p>
 
-                <div class="container d-flex flex-column shadow rounded p-4 bg-white">
-                    <p class="display-4 fw-bold my-2 align-self-center text-center d-block d-lg-none">Vanliga frågor</p>
-                    <p class="fs-5"><span class="almi-rosa fw-bold">1. </span>Måste företaget vara startat innan ansökan skickas in?</p>
-                    <p><span class="fw-bold">Svar: </span>Företaget behöver inte vara registrerat vid ansökningstillfället, men det måste vara registrerat innan utbetalning av beviljat lån kan genomföras.</p>
-                    <p class="fs-5"><span class="almi-rosa fw-bold">2. </span>Hur gör jag för att ansöka om lån?</p>
-                    <p><span class="fw-bold">Svar: </span>Om du är intresserad av att ansöka om lån från oss, börjar du med att fylla i en låneansökan i våra e-tjänster. I ansökan fyller du i uppgifter om ditt företag, hur mycket du vill låna och vad lånet
-                        ska användas till.</p>
-                    <p class="fs-5"><span class="almi-rosa fw-bold">3. </span>Vilka underlag krävs vid en låneansökan?</p>
-                    <p><span class="fw-bold">Svar: </span>Om ditt företag har ett bokslut bifogar du senaste bokslutet och aktuella delårssiffror om ditt bokslut är äldre än fyra månader. Om ditt företag inte har ett bokslut bifogar du budget och eventuellt
-                        aktuella delårssiffror om det finns.</p>
+                <div class="container d-flex flex-column shadow  p-4 bg-white">
+                    <p class="display-4 fw-bold my-2 align-self-center text-center">Vanliga frågor</p>
+
+                    <div class="accordion accordion-flush mb-3" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                             <p class="fs-5"><span class="almi-rosa fw-bold">1. </span>Måste företaget vara startat innan ansökan skickas in?</p>
+                            </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p><span class="fw-bold">Svar: </span>Företaget behöver inte vara registrerat vid ansökningstillfället, men det måste vara registrerat innan utbetalning av beviljat lån kan genomföras.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    <p class="fs-5"><span class="almi-rosa fw-bold">2. </span>Hur gör jag för att ansöka om lån?</p>
+                            </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p><span class="fw-bold">Svar: </span>Om du är intresserad av att ansöka om lån från oss, börjar du med att fylla i en låneansökan i våra e-tjänster. I ansökan fyller du i uppgifter om ditt företag, hur mycket du vill
+                                        låna och vad lånet ska användas till.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <p class="fs-5"><span class="almi-rosa fw-bold">3. </span>Vilka underlag krävs vid en låneansökan?</p>
+                            </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p><span class="fw-bold">Svar: </span>Om ditt företag har ett bokslut bifogar du senaste bokslutet och aktuella delårssiffror om ditt bokslut är äldre än fyra månader. Om ditt företag inte har ett bokslut bifogar du budget
+                                        och eventuellt aktuella delårssiffror om det finns.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    <p class="fs-5"><span class="almi-rosa fw-bold">4. </span>Kan jag ansöka om lån om jag saknar BankID?</p>
+                            </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p><span class="fw-bold">Svar: </span>För att kunna fylla i en låneansökan i våra e-tjänster krävs bankID, mobilt bankID eller e-legitimation från Telia. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <a href="https://www.almi.se/vara-tjanster/tjanster/lan-och-ovrig-finansiering/?gclid=Cj0KCQiA5OuNBhCRARIsACgaiqXpapURRx7Umwg5w-8fR2AeaMN0_f4JQ33jECiVCLsS57Bt3ljEKVkaAhYUEALw_wcB" class="mx-auto"><button class="btn btn-dark almi-btn align-self-center">Hitta mer frågor</button></a>
 
                 </div>
@@ -235,14 +302,13 @@
     </div>
 
     <!-- Clients carousel -->
-
     <div class="py-5 almi-bg-gray">
         <p class="display-4 fw-bold text-center mb-3">Vad tycker våra kunder?</p>
 
         <div id="carouselExampleControls1" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="container shadow d-flex flex-column flex-lg-row-reverse rounded p-4 bg-white col-7 mx-auto">
+                    <div class="container shadow d-flex flex-column flex-lg-row-reverse  p-4 bg-white col-7 mx-auto">
                         <div class=" col-lg-6 mx-auto p-lg-4 fs-5">
                             <div class="mx-auto almi-qoute">
                                 <img src="images/quote.png" class="position-absolute" alt="">
@@ -253,7 +319,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container d-flex flex-column flex-lg-row-reverse rounded p-4 bg-white col-7 mx-auto">
+                    <div class="container d-flex flex-column flex-lg-row-reverse  p-4 bg-white col-7 mx-auto">
                         <div class=" col-lg-6 mx-auto p-lg-4 fs-5">
                             <div class="mx-auto almi-qoute">
                                 <img src="images/quote.png" class="position-absolute" alt="">
@@ -264,7 +330,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container d-flex flex-column flex-lg-row-reverse rounded p-4 bg-white col-7 mx-auto">
+                    <div class="container d-flex flex-column flex-lg-row-reverse  p-4 bg-white col-7 mx-auto">
                         <div class=" col-lg-6 mx-auto p-lg-4 fs-5">
                             <div class="mx-auto almi-qoute">
                                 <img src="images/quote.png" class="position-absolute" alt="">
@@ -287,13 +353,12 @@
     </div>
 
     <!-- Help form -->
-
     <div class="almi-bg-l-lila p-3 ">
         <div class="container p-0 d-lg-flex col-lg-10">
             <div class="container p-0 col-lg-6 align-self-center">
                 <p class="text-white text-center col-10 col-lg-6 mx-auto">Vill du ha hjälp att komma igång? Vårt team av experter står redo att diskutera era behov för att hitta rätt lösning.</p>
             </div>
-            <form action="" class="d-flex flex-column col-9 col-lg-4 mx-auto">
+            <form action="" class="d-flex flex-column col-10 col-lg-4 mx-auto">
                 <div class="d-flex flex-row justify-content-between align-items-center mb-3">
                     <label for="fname" class="text-white">Namn:</label>
                     <input type="text" class="almi-input" id="fname" value="">
@@ -311,12 +376,11 @@
         </div>
     </div>
 
-
     <!-- Application form -->
     <div class="my-5" id="ansok">
-        <div class="container d-flex align-items-center justify-content-center flex-column flex-lg-row shadow rounded p-4 almi-bg-l-green col-10 mx-auto my-5">
+        <div class="container d-flex align-items-center justify-content-center flex-column flex-lg-row shadow  p-4 almi-bg-l-green col-10 mx-auto my-5">
             <img src="images/handshake.png" class="img-fluid w-25 m-3 d-lg-none" alt="">
-            <div class=" p-4 m-3 shadow rounded bg-white d-flex flex-column align-items-center justify-content-center almi-div-hover">
+            <div class=" p-4 m-3 shadow  bg-white d-flex flex-column align-items-center justify-content-center almi-div-hover">
                 <p class="fs-1 fw-bold text-center">Ansök om lån</p>
                 <p class="fs-5 text-center">Ansök om lån genom att fylla i vår e-tjänst</p>
                 <button class="btn btn-dark almi-btn align-self-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Påbörja ansökan</button>
@@ -371,10 +435,9 @@
         </div>
     </div>
 
-
     <!-- Navbar bottom -->
     <div class="almi-bg-rosa p-3 mb-3 ">
-        <div class="container d-lg-flex justify-content-between">
+        <div class="container d-lg-flex justify-content-between p-3">
             <div class="col-lg-3">
                 <a class="navbar-brand p-0  m-0" href="#"><img src="images/SVG/almi_logo_white.svg" class="almi-logo mb-4" alt=""></a>
             </div>
@@ -406,12 +469,11 @@
                 <p class="h4 fw-bold text-white ">Kontakta oss</p>
                 <p class="text-white">Ring oss på 0771-55 85 00
                 </p>
-                <p class="text-white"> Vi har öppet vardagar mellan kl 9.00-16.00, stängt mellan 12.00-13.00.</p>
+                <p class="text-white m-0"> Vi har öppet vardagar mellan kl 9.00-16.00, stängt mellan 12.00-13.00.</p>
             </div>
 
         </div>
     </div>
-
 
     <!-- Social icons -->
     <div class="d-flex justify-content-center icons-wrapper mb-5">
@@ -419,7 +481,6 @@
         <a href="https://www.facebook.com/almiforetagspartner/"><img src="images/SVG/icon_facebook.svg" alt="" class="mx-1"></a>
         <a href="https://twitter.com/"><img src="images/SVG/icon_twitter.svg" alt="" class="mx-1"></a>
     </div>
-
 
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
